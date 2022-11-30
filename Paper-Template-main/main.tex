@@ -1,0 +1,24 @@
+\documentclass[a4paper]{ltjarticle}
+\input{preamble}
+\usepackage{subfiles}
+\title{\titleen}
+\author{\nameen}
+
+\addbibresource{cites.bib}
+
+\begin{document}
+\maketitle
+\clearpage
+
+\tableofcontents\thispagestyle{plain}
+\clearpage
+
+\subfile{sections/abstract_en}
+\subfile{sections/abstract_jp}
+\subfile{sections/01_introduction}
+\subfile{sections/02_background}
+% Add more sections below
+
+\clearpage
+\printbibliography
+\end{document}
